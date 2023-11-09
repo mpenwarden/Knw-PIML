@@ -17,10 +17,12 @@ TBD
 
 ### Example: 1D Poisson
 
-MH-PINN (sin) Kolmogorov n-width = $1.7 \times 10^{-4}
+MH-PINN (sine) Kolmogorov n-width = $1.7 \times 10^{-4}$
+
 https://github.com/mpenwarden/Knw-PIML/assets/74904442/ce1ed207-9e5a-4b22-a48d-5937cf8fe66e
 
-MH-PINN (tanh) Kolmogorov n-width = $7.5 \times 10^{-2}
+MH-PINN (tanh) Kolmogorov n-width = $7.5 \times 10^{-2}$
+
 https://github.com/mpenwarden/Knw-PIML/assets/74904442/c863cec0-965e-4187-ba21-3b2cc02dc022
 
 
