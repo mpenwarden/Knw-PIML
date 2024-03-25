@@ -33,7 +33,7 @@ Results - The results folder contains MH-PINN and PI-DON model runs that constit
 
 Source - The source folder contains the final version of the foundational classes and helper functions, which are called in the Jupyter Notebook files in the Results folder to solve the PDE problems described.
 
-## Example: 1D Poisson
+## Example: 1D Poisson (Animations of the competitive optimization used in computing the Kolmogorov n-Width)
 
 $\frac{\partial^2 u}{\partial x^2} = f(x)$ <br>
 $x \in [-1,1]$ <br>
