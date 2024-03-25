@@ -1,4 +1,4 @@
-# KKolmogorov n-Widths for Multitask Physics-Informed Machine Learning (PIML) Methods: Towards Robust Metrics
+# Kolmogorov n-Widths for Multitask Physics-Informed Machine Learning (PIML) Methods: Towards Robust Metrics
 
 ## Abstract
 
@@ -27,19 +27,19 @@ https://arxiv.org/abs/2402.11126
 
 This repository is 
 
-## Examples
+## Example: 1D Poisson
 
-### Example: 1D Poisson
-
-$\frac{\partial^2 u}{\partial x^2} = f(x), x \in [-1,1], u(-1) = u(1) = 0
+$\frac{\partial^2 u}{\partial x^2} = f(x)$ <br>
+$x \in [-1,1]$ <br>
+$u(-1) = u(1) = 0$
 
 MH-PINN (sine activation function) Kolmogorov n-width (reported as Rel. $L_2$ Error) = $1.9 \times 10^{-2}$
 
-https://github.com/mpenwarden/Knw-PIML/assets/74904442/ce1ed207-9e5a-4b22-a48d-5937cf8fe66e
+https://github.com/mpenwarden/Knw-PIML/assets/74904442/819a1146-c489-4616-87cb-063ce1f64225
 
 MH-PINN (tanh activation function) Kolmogorov n-width (reported as Rel. $L_2$ Error) = $30.1 \times 10^{-2}$
 
-https://github.com/mpenwarden/Knw-PIML/assets/74904442/c863cec0-965e-4187-ba21-3b2cc02dc022
+https://github.com/mpenwarden/Knw-PIML/assets/74904442/7e71d694-da4a-4ec1-9173-e2a0808399dc
 
 
 ## License
