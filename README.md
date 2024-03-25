@@ -25,7 +25,13 @@ https://arxiv.org/abs/2402.11126
 
 ## Description of codebase
 
-This repository is 
+This repository archives the results constituting the numerical experiments section of the paper linked above. The repository is split into three parts:
+
+Data - The data folder contains the reference PDE solutions to the problems solved in the manuscript.
+
+Results - The results folder contains MH-PINN and PI-DON model runs that constitute the results (1D Poisson & 2D nonlinear Allen-Cahn) reported in the manuscript.
+
+Source - The source folder contains the final version of the foundational classes and helper functions, which are called in the Jupyter Notebook files in the Results folder to solve the PDE problems and compare them with the reference solutions in the Data folder.
 
 ## Example: 1D Poisson
 
