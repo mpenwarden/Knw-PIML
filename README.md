@@ -1,27 +1,43 @@
-# Kolmogorov n-widths for Multitask Physics-informed Machine Learning (PIML) Methods
+# KKolmogorov n-Widths for Multitask Physics-Informed Machine Learning (PIML) Methods: Towards Robust Metrics
 
 ## Abstract
 
 Physics-informed machine learning (PIML) as a means of solving partial differential equations (PDE) has
-garnered much attention in the Computational Science and Engineering (CS\&E) world. This topic encompasses a broad array of methods and models aimed at solving single or multitask PDE problems. PIML is identified by the incorporation of physical laws into the training process of machine learning models in lieu of large data when solving PDE problems. Despite the overall success of this collection of methods, it remains incredibly hard to analyze, benchmark, and generally compare one approach to another. Using Kolmogorov n-widths as a measure of effectiveness of approximating functions, we judiciously apply this metric in the comparison of various multitask PIML architectures. We compute lower accuracy bounds of certain models with which benchmarks can be defined on a variety of PDE problems. We also incorporate this metric into the optimization process, which improves the models' generalizability over the multitask PDE problem. Finally, we provide theoretical results of the convergence of approximating the Kolmogorov n-width for PIML models. 
+garnered much attention in the Computational Science and Engineering (CS&E) world. This topic encompasses a broad array of methods and models aimed at solving a single or a collection of PDE problems, called
+multitask learning. PIML is characterized by the incorporation of physical laws into the training process of
+machine learning models in lieu of large data when solving PDE problems. Despite the overall success of
+this collection of methods, it remains incredibly difficult to analyze, benchmark, and generally compare one
+approach to another. Using Kolmogorov n-widths as a measure of effectiveness of approximating functions,
+we judiciously apply this metric in the comparison of various multitask PIML architectures. We compute
+lower accuracy bounds and analyze the model’s learned basis functions on various PDE problems. This
+is the first objective metric for comparing multitask PIML architectures and helps remove uncertainty in
+model validation from selective sampling and overfitting. We also identify avenues of improvement for model
+architectures, such as the choice of activation function, which can drastically affect model generalization to
+“worst-case” scenarios, which is not observed when reporting task-specific errors. We also incorporate this
+metric into the optimization process through regularization, which improves the models’ generalizability
+over the multitask PDE problem.
 
 ## Citation
 
-TBD
+Penwarden, Michael, Houman Owhadi, and Robert M. Kirby. "Kolmogorov n-Widths for Multitask Physics-Informed Machine Learning (PIML) Methods: Towards Robust Metrics." arXiv preprint arXiv:2402.11126 (2024).
+
+https://arxiv.org/abs/2402.11126
 
 ## Description of codebase
 
-TBD
+This repository is 
 
 ## Examples
 
 ### Example: 1D Poisson
 
-MH-PINN (sine) Kolmogorov n-width = $1.7 \times 10^{-4}$
+$\frac{\partial^2 u}{\partial x^2} = f(x), x \in [-1,1], u(-1) = u(1) = 0
+
+MH-PINN (sine activation function) Kolmogorov n-width (reported as Rel. $L_2$ Error) = $1.9 \times 10^{-2}$
 
 https://github.com/mpenwarden/Knw-PIML/assets/74904442/ce1ed207-9e5a-4b22-a48d-5937cf8fe66e
 
-MH-PINN (tanh) Kolmogorov n-width = $7.5 \times 10^{-2}$
+MH-PINN (tanh activation function) Kolmogorov n-width (reported as Rel. $L_2$ Error) = $30.1 \times 10^{-2}$
 
 https://github.com/mpenwarden/Knw-PIML/assets/74904442/c863cec0-965e-4187-ba21-3b2cc02dc022
 
