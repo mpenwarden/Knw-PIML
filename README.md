@@ -23,11 +23,11 @@ Penwarden, Michael, Houman Owhadi, and Robert M. Kirby. "Kolmogorov n-Widths for
 
 https://arxiv.org/abs/2402.11126
 
-@article{penwarden2024kolmogorov,
-  title={Kolmogorov n-Widths for Multitask Physics-Informed Machine Learning (PIML) Methods: Towards Robust Metrics},
-  author={Penwarden, Michael and Owhadi, Houman and Kirby, Robert M},
-  journal={arXiv preprint arXiv:2402.11126},
-  year={2024}
+@article{penwarden2024kolmogorov, \
+  title={Kolmogorov n-Widths for Multitask Physics-Informed Machine Learning (PIML) Methods: Towards Robust Metrics}, \
+  author={Penwarden, Michael and Owhadi, Houman and Kirby, Robert M}, \
+  journal={arXiv preprint arXiv:2402.11126}, \
+  year={2024} \
 }
 
 ## Description of codebase
